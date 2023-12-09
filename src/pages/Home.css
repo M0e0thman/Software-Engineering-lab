@@ -1,0 +1,35 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffd700; /* UConn gold color */
+    background-image: url('https://assets-global.website-files.com/6303816aff8604433b1415dc/643e4dc83267b745fd498df1_hero-case-study-uconn-1.jpg'); /* Replace with your UConn image path */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* White font color */
+    font-family: 'Arial', sans-serif; /* Change to your preferred font family */
+  }
+  
+  .creative-title {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold; /* Increase font weight */
+    color: #ff5733; /* Bright orange font color for better contrast */
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff; /* White font color for better contrast */
+    font-weight: bold;
+  }
+  
